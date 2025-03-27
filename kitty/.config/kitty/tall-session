@@ -8,5 +8,5 @@ new_tab Terminals
 layout vertical:bias=80
 launch fish
 launch fish 
-launch spt 
+launch fish
 
