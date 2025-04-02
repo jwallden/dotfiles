@@ -19,7 +19,7 @@ if [[ $HOST == "jonkin" ]]; then
 
 fi
 
-if [[ $host == "pulse" ]]; then
+if [[ $HOST == "pulse" ]]; then
   hyprctl keyword workspace 1, monitor:eDP-1, default:true, persistent:true
   hyprctl keyword workspace 2, monitor:eDP-1, persistent:true
   hyprctl keyword workspace 3, monitor:eDP-1, persistent:true
