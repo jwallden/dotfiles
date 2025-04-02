@@ -1,10 +1,10 @@
-new_tab Terminals 
+new_tab  Terminals 
 layout tall:bias=60
 launch fish
 launch fish 
 launch fish 
 
-new_tab LazyVim
+new_tab  LazyVim
 layout tall
 #layout tall:bias=70
 launch fish 
