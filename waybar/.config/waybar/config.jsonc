@@ -8,7 +8,7 @@
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "backlight", "network", "battery", "tray"],
+    "modules-right": ["cpu", "memory", "pulseaudio", "backlight", "network", "battery", "tray"],
     // Modules configuration
      "hyprland/workspaces": {
          "disable-scroll": true,
@@ -47,7 +47,7 @@
     },
     "cpu": {
         "format": "{usage}% ",
-        "tooltip": false
+        "tooltip": true
     },
     "memory": {
         "format": "{}% "
